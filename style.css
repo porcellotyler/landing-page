@@ -1,0 +1,161 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    padding: 10px 15%;
+}
+
+.header ul {
+    list-style: none;
+    color: #f9faf8;
+}
+
+.top-list {
+    display: inline; /* this makes the list display horizontally */
+    margin-left: auto;
+    margin-right: 0;
+}
+
+li {
+    padding-left: 15px;
+}
+
+.top {
+    display: flex;
+    background-color: #1f2937;
+    padding: 10px 15%;
+    color: #f9faf8;
+    padding: 100px 15%;
+}
+
+.top img {
+    align-self: center;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.top h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+    width: 400px;
+    margin-right: 48px;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    padding: 12px 20px;
+    font-size: 20px;
+    flex-shrink: 2;
+    flex-grow: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+h2 {
+    display: flex;
+    flex-shrink: 0;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+    padding: 16px;
+}
+
+.info-1, .info-2, .info-3, .info-4 {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    margin-left: 80px;
+}
+
+.all {
+    display: flex;
+}
+
+.border {
+    border: #3882f6;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 6%;
+    align-items: center
+}
+
+.name {
+    margin-left: 35%;
+    font-weight: 550;
+}
+
+.words {
+    width: 700px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: oblique 16deg;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    margin: 72px 125px;
+    background-color: #3882f6; 
+    border-radius: 5px;  
+}
+
+.cta-left {
+    margin: 0;
+    padding-left: 50px;
+}
+
+.box {
+   color: #f9faf8;
+   width: 800px;
+   height: 125px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.sign-up {
+    border-color: #f9faf8;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    margin: 42px 0px;
+    padding: 0px 30px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 15px;
+}
